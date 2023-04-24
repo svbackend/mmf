@@ -1,0 +1,52 @@
+version: "3.7"
+services:
+  gateway:
+    image: mmf/gateway
+    build:
+      context: .docker/gateway
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    depends_on:
+      - api-nginx
+      - php
+
+  api-nginx:
+    image: mmf/api-nginx
+    build:
+      context: api/.docker/nginx
+      dockerfile: Dockerfile
+    volumes:
+      - ./api:/app
+    depends_on:
+      - php
+
+  php:
+    image: mmf/php
+    build:
+      context: api/.docker/php
+      dockerfile: Dockerfile
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./api:/app
+    depends_on:
+      - db
+
+  db:
+    image: mysql:5.7
+    ports:
+      - "13306:3306"
+    env_file:
+      - .env
+    volumes:
+      - db-volume:/var/lib/mysql
+
+  mailer:
+    image: schickling/mailcatcher
+    ports:
+      - "1080:1080"
+      - "1025:1025"
+
+volumes:
+  db-volume:
