@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="633840a8-4a29-438a-81ca-2ffe346eb1b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api/src/Cart/Controller/AddToCartAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Cart/Controller/ViewCartAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Cart/DTO/CartItemDto.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Cart/DTO/CartWithItemsDto.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Cart/Entity/Cart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Cart/Entity/CartItem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Cart/Http/Request/AddToCartRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Cart/Http/Response/ViewCartResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Cart/Repository/CartItemRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Cart/Repository/CartRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Cart/Service/CartItemAdderService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/Product/Http/Request/NewProductRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Product/Http/Request/NewProductRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/Product/Http/Request/UpdateProductRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Product/Http/Request/UpdateProductRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/api/hello.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/index.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="633840a8-4a29-438a-81ca-2ffe346eb1b9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +129,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="2OsZi5y8Hf2zUdlgCiGLbZ5VK6A" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
