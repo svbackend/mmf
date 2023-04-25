@@ -5,53 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="633840a8-4a29-438a-81ca-2ffe346eb1b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api/src/Common/Controller/BaseAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Common/Http/Request/HttpInputInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Common/Http/Request/RequestResolver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Common/Http/Response/AuthRequiredErrorResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Common/Http/Response/ErrorResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Common/Http/Response/HttpOutputInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Common/Http/Response/SuccessResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Product/Controller/AllProductsAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Product/Controller/DeleteProductAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Product/Controller/NewProductAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Product/Controller/UpdateProductAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Product/Controller/ViewProductAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Product/DTO/ViewProductDto.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Product/Entity/Product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Product/Http/Request/NewProductRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Product/Http/Request/UpdateProductRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Product/Http/Response/AllProductsResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Product/Http/Response/NewProductSuccessResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Product/Http/Response/ViewProductResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Product/Repository/ProductRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Product/ValueObject/PriceValue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/User/Controller/AllUsersAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/User/Controller/AssignCreditsAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/User/Http/Request/AssignCreditsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/User/Http/Request/LoginRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/User/Http/Response/AllUsersResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/User/ValueObject/CreditsValue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.docker/gateway/conf.d/mff.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/gateway/conf.d/mff.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Cart/Controller/AddToCartAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Cart/Controller/ViewCartAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Cart/DTO/CartItemDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Cart/DTO/CartWithItemsDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Cart/Entity/Cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Cart/Entity/CartItem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Cart/Http/Request/AddToCartRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Cart/Http/Response/ViewCartResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Cart/Repository/CartItemRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Cart/Repository/CartRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Cart/Service/CartItemAdderService.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.docker/nginx/conf.d/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/api/.docker/nginx/conf.d/default.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.env" beforeDir="false" afterPath="$PROJECT_DIR$/api/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.idea/api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api/.idea/api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/doctrine.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/routes/annotations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/routes/annotations.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/Controller/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/Controller/HelloController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/Entity/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/Repository/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Product/Http/Request/NewProductRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Product/Http/Request/NewProductRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Product/Http/Request/UpdateProductRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Product/Http/Request/UpdateProductRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/api/hello.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +33,13 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/api/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -170,6 +149,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="2OsZi5y8Hf2zUdlgCiGLbZ5VK6A" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -179,7 +161,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/vsaik/projects/mmf/api/src/Common",
+    "last_opened_file_path": "/home/vsaik/projects/mmf/api/src/Checkout",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -187,6 +169,7 @@
     "nodejs_package_manager_path": "npm",
     "php.override.implement.member.chooser.php.doc": "NONE",
     "settings.editor.selected.configurable": "preferences.sourceCode.PHP",
+    "ts.external.directory.path": "/home/vsaik/projects/mmf/frontend/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -200,13 +183,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/src/Checkout" />
       <recent name="$PROJECT_DIR$/api/src/Common" />
       <recent name="$PROJECT_DIR$/api/src" />
       <recent name="$PROJECT_DIR$/api/src/Common/Http/Response" />
       <recent name="$PROJECT_DIR$/api/src/Common/Controller" />
-      <recent name="$PROJECT_DIR$/api/src/Common/Http/Request" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/src/Cart/DTO" />
       <recent name="$PROJECT_DIR$/frontend/.docker/node" />
     </key>
   </component>

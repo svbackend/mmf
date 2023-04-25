@@ -3,13 +3,18 @@
 namespace App\Product\Http\Request;
 
 use App\Common\Http\Request\HttpInputInterface;
+use OpenApi\Annotations as OA;
 use Symfony\Component\Validator\Constraints as Assert;
 
 class NewProductRequest implements HttpInputInterface
 {
     public string $name;
     public string $description;
+
+    /** @OA\Property(example="15.75") */
     public float $price;
+
+    /** @OA\Property(example="1") */
     public int $quantity;
 
     public function __construct(
@@ -31,7 +36,7 @@ class NewProductRequest implements HttpInputInterface
             'name' => [new Assert\NotBlank(), new Assert\Length(['min' => 2, 'max' => 255])],
             'description' => [],
             'quantity' => [new Assert\NotBlank(), new Assert\Type('integer'), new Assert\GreaterThanOrEqual(0)],
-            'price' => [new Assert\NotBlank(), new Assert\Type('numeric'), new Assert\GreaterThanOrEqual(0)]
+            'price' => [new Assert\NotBlank(), new Assert\Type('float'), new Assert\GreaterThanOrEqual(0)]
         ]);
     }
 }

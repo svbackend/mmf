@@ -13,3 +13,7 @@ product:
 cart:
   type: annotation
   resource: ../src/Cart/Controller/
+
+checkout:
+  type: annotation
+  resource: ../src/Checkout/Controller/
