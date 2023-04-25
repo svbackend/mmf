@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="633840a8-4a29-438a-81ca-2ffe346eb1b9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/93ef1100-02a4-4d54-88fc-e6c430a62df3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/93ef1100-02a4-4d54-88fc-e6c430a62df3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/Common/EventListener/KernelViewListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Common/EventListener/KernelViewListener.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/User/Http/Request/AssignCreditsRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/User/Http/Request/AssignCreditsRequest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
