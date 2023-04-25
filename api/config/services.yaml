@@ -20,11 +20,17 @@ services:
             - '../src/Entity/'
             - '../src/Kernel.php'
 
-    # controllers are imported separately to make sure services can be injected
-    # as action arguments even if you don't extend any base controller class
-    App\Controller\:
-        resource: '../src/Controller/'
-        tags: ['controller.service_arguments']
+    App\Common\Http\Request\RequestResolver:
+        tags:
+            - { name: controller.argument_value_resolver, priority: 50 }
+
+    App\Common\EventListener\ExceptionListener:
+        tags:
+            - { name: kernel.event_listener, event: kernel.exception }
+
+    App\Common\EventListener\KernelViewListener:
+        tags:
+            - { name: kernel.event_listener, event: kernel.view }
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones

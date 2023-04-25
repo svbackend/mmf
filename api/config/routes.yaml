@@ -1,3 +1,15 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+common:
+  type: annotation
+  resource: ../src/Common/Controller/
+
+user:
+  type: annotation
+  resource: ../src/User/Controller/
+
+product:
+  type: annotation
+  resource: ../src/Product/Controller/
+
+cart:
+  type: annotation
+  resource: ../src/Cart/Controller/

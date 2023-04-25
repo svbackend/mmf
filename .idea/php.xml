@@ -67,7 +67,36 @@
       <path value="$PROJECT_DIR$/api/vendor/symfony/http-foundation" />
       <path value="$PROJECT_DIR$/api/vendor/symfony/config" />
       <path value="$PROJECT_DIR$/api/vendor/laminas/laminas-code" />
+      <path value="$PROJECT_DIR$/api/vendor/zircote/swagger-php" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/api/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/api/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/api/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/api/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/api/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/api/vendor/nelmio/api-doc-bundle" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/api/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/api/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/api/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/api/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/web-profiler-bundle" />
     </include_path>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />
 </project>

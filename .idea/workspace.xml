@@ -5,20 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="633840a8-4a29-438a-81ca-2ffe346eb1b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.docker/gateway/snippets/resolver.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Controller/HelloController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mmf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mmf.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Common/Controller/BaseAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Common/Http/Request/HttpInputInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Common/Http/Request/RequestResolver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Common/Http/Response/AuthRequiredErrorResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Common/Http/Response/ErrorResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Common/Http/Response/HttpOutputInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Common/Http/Response/SuccessResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Product/Controller/AllProductsAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Product/Controller/DeleteProductAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Product/Controller/NewProductAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Product/Controller/UpdateProductAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Product/Controller/ViewProductAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Product/DTO/ViewProductDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Product/Entity/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Product/Http/Request/NewProductRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Product/Http/Request/UpdateProductRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Product/Http/Response/AllProductsResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Product/Http/Response/NewProductSuccessResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Product/Http/Response/ViewProductResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Product/Repository/ProductRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Product/ValueObject/PriceValue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/User/Controller/AllUsersAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/User/Controller/AssignCreditsAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/User/Http/Request/AssignCreditsRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/User/Http/Request/LoginRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/User/Http/Response/AllUsersResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/User/ValueObject/CreditsValue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/gateway/conf.d/mff.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/gateway/conf.d/mff.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.docker/nginx/conf.d/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/api/.docker/nginx/conf.d/default.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/.env" beforeDir="false" afterPath="$PROJECT_DIR$/api/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/.idea/api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api/.idea/api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/routes/annotations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/routes/annotations.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Controller/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Controller/HelloController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Entity/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Repository/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/api/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,17 +58,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/api/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/api/config/packages/security.yaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/config/routes/nelmio_api_doc.yaml" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpServers">
+    <servers>
+      <server host="127.0.0.1" id="309ec8de-c441-4e4d-bbe3-c3f34410d5f0" name="127.0.0.1" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/api/public" remote-root="/app/public" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php">
     <include_path>
       <path value="$PROJECT_DIR$/api/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/api/vendor/doctrine/dbal" />
@@ -93,6 +138,35 @@
       <path value="$PROJECT_DIR$/api/vendor/symfony/http-foundation" />
       <path value="$PROJECT_DIR$/api/vendor/symfony/config" />
       <path value="$PROJECT_DIR$/api/vendor/laminas/laminas-code" />
+      <path value="$PROJECT_DIR$/api/vendor/zircote/swagger-php" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/api/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/api/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/api/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/api/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/api/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/api/vendor/nelmio/api-doc-bundle" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/api/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/api/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/api/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/api/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/web-profiler-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="2OsZi5y8Hf2zUdlgCiGLbZ5VK6A" />
@@ -105,22 +179,32 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/vsaik/projects/mmf/frontend/.docker",
+    "last_opened_file_path": "/home/vsaik/projects/mmf/api/src/Common",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "php.override.implement.member.chooser.php.doc": "NONE",
+    "settings.editor.selected.configurable": "preferences.sourceCode.PHP",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
+      "MySQL"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/frontend/.docker" />
-      <recent name="$PROJECT_DIR$/frontend" />
-      <recent name="$PROJECT_DIR$/api/.docker" />
-      <recent name="$PROJECT_DIR$/.docker" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/api/src/Common" />
+      <recent name="$PROJECT_DIR$/api/src" />
+      <recent name="$PROJECT_DIR$/api/src/Common/Http/Response" />
+      <recent name="$PROJECT_DIR$/api/src/Common/Controller" />
+      <recent name="$PROJECT_DIR$/api/src/Common/Http/Request" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/frontend/.docker/node" />
@@ -129,5 +213,37 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/api/src/Common/EventListener/KernelViewListener.php</url>
+          <line>28</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/api/src/Common/EventListener/KernelViewListener.php</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/api/src/Common/EventListener/KernelViewListener.php</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
